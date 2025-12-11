@@ -1,0 +1,39 @@
+#footer {
+  background: #222;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+.social {
+  margin: 20px 0;
+}
+
+.icon {
+  background: #444;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.icon:hover {
+  background: #666;
+  transform: scale(1.1);
+}
+
+#darkModeBtn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#topBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  display: none;
+}
